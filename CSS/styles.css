@@ -93,6 +93,7 @@ a {
   align-items: center;
   list-style: none;
   margin: 0;
+  padding-left: 0;
 }
 
 .header-menu-item {
@@ -124,10 +125,8 @@ a {
 
 /* Home page - main part */
 
-/* check opacity!!!! */
-
 .home-page:before {
-  background-image: url(../Images/SectionsBackground/section-1\(header\).jpg);
+  background-image: url(../Images/SectionsBackground/section-1-header.jpg);
   width: 100%;
   /* background-attachment: fixed; */
   background-position: center;
@@ -189,7 +188,7 @@ a {
   padding-top: 129px;
   padding-bottom: 243px;
 }
-/*CHECk MARGINS / Line- height after you add fonts*/
+
 .explore-button,
 .purchase-button {
   font-family: "Montserrat", sans-serif;
@@ -213,7 +212,7 @@ a {
   margin-left: 26px;
 }
 /* options section */
-/* png or svg??? */
+
 .options-list {
   list-style: none;
   display: grid;
@@ -305,7 +304,6 @@ a {
   left: 10px;
 }
 
-/* check fucking border */
 .services-list {
   list-style: none;
   margin-top: 73px;
@@ -317,7 +315,6 @@ a {
   margin-bottom: 0;
 }
 
-/* чертов бордер прыгает. исправь!*/
 .services-list-item {
   font-family: "Montserrat", sans-serif;
   padding-top: 14px;
@@ -336,7 +333,7 @@ a {
 .services-list-item:hover {
   border: 1px solid #18cfab;
   /* cursor: url(/Images/cursor.png), default; */
-  cursor: default;
+  cursor: pointer;
 }
 
 .services-item-active {
@@ -469,7 +466,7 @@ a {
   border: 1px solid #18cfab;
   color: #18cfab;
   /* cursor: url(/Images/cursor.png), pointer; */
-  cursor: default;
+  cursor: pointer;
 }
 
 .works-list {
@@ -487,7 +484,7 @@ a {
   border-top: 1px solid #18cfab;
   display: none;
   /* cursor: url(/Images/cursor.png), default; */
-  cursor: default;
+  cursor: pointer;
 }
 
 .works-list-item:hover .works-container {
@@ -507,7 +504,7 @@ a {
 }
 .link-button {
   /* cursor: url(/Images/cursor.png), default; */
-  cursor: default;
+  cursor: pointer;
 }
 .link-button:hover .circle {
   fill: #18cfab;
@@ -537,7 +534,7 @@ a {
 }
 .works-container-link {
   /* cursor: url(/Images/cursor.png), default; */
-  cursor: default;
+  cursor: pointer;
 }
 
 .works-container-title {
